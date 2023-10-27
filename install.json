@@ -24,7 +24,7 @@
     {
       "method": "browser.open",
       "params": {
-        "uri": "/?selected=SAM And MetaCLIP"
+        "uri": "/?selected=SAM_And_MetaCLIP"
       }
     }
   ]
