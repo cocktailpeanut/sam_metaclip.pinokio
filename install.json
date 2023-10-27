@@ -8,7 +8,7 @@
     "method": "shell.run",
     "params": {
       "venv": "venv",
-      "path": "app",
+      "path": "{{cwd}}/app",
       "message": [
         "{{pip.install.torch}}",
         "pip install -r requirements.txt"

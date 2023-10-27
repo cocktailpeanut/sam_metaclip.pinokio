@@ -4,8 +4,8 @@
     {
       "method": "shell.run",
       "params": {
-        "venv": "pinokio/venv",
-        "path": "..",
+        "venv": "venv",
+        "path": "app",
         "message": "python app.py",
         "on": [
           {
