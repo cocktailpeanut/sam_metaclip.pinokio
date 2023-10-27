@@ -23,7 +23,7 @@ module.exports = {
         return [{
           icon: "fa-solid fa-power-off",
           text: "Launch",
-          href: "pinokio/start.json",
+          href: "start.json",
           params: { fullscreen: true, run: true }
         }]
       }
@@ -31,7 +31,7 @@ module.exports = {
       return [{
         icon: "fa-solid fa-plug",
         text: "Install",
-        href: "pinokio/install.json",
+        href: "install.json",
         params: { run: true, fullscreen: true }
       }]
     }
